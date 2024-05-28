@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 08.04.2024 21:11:40
 -- Design Name: 
--- Module Name: basic_gates - Behavioral
+-- Module Name: basic_gates - Dataflow
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
