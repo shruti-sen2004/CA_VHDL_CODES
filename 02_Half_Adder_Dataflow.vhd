@@ -38,7 +38,7 @@ entity HA is
            c : out STD_LOGIC);
 end HA;
 
-architecture Behavioral of HA is
+architecture Dataflow of HA is
 
 
 begin
@@ -46,4 +46,4 @@ s <= a XOR b;
 c <= a AND b;
 
 
-end Behavioral;
+end Dataflow;
