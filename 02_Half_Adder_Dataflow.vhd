@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 06.04.2024 17:32:47
 -- Design Name: 
--- Module Name: HA - Behavioral
+-- Module Name: HA - Dataflow
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
