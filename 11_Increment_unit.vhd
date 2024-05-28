@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 18.04.2024 19:02:57
 -- Design Name: 
--- Module Name: incrementer - Behavioral
+-- Module Name: incrementer - structural
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -38,7 +38,7 @@ entity incrementer is
            cout : out STD_LOGIC);
 end incrementer;
 
-architecture Behavioral of incrementer is
+architecture structural of incrementer is
 component HA is
     Port ( a : in STD_LOGIC;
            b : in STD_LOGIC;
@@ -52,4 +52,4 @@ HA2: HA port map(a(1),sig(0),s(1),sig(1));
 HA3: HA port map(a(2),sig(1),s(2),sig(2));
 HA4: HA port map(a(3),sig(2),s(3),cout);
 
-end Behavioral;
+end structural;
