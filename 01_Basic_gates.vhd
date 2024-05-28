@@ -37,7 +37,7 @@ entity basic_gates is
            x : out STD_LOGIC);
 end basic_gates;
 
-architecture Behavioral of basic_gates is
+architecture Dataflow of basic_gates is
 begin
 --x <= NOT a;
 --x <= a OR b;
@@ -45,4 +45,4 @@ begin
 x <= a XOR b;
 
 
-end Behavioral;
+end Dataflow;
